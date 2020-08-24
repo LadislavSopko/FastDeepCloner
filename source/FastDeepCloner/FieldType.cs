@@ -1,4 +1,6 @@
-﻿namespace FastDeepCloner
+﻿#pragma warning disable 1591
+
+namespace FastDeepCloner
 {
     /// <summary>
     /// PropertyField for property
@@ -13,3 +15,5 @@
 
    
 }
+
+#pragma warning restore 1591

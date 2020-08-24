@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
+#pragma warning disable 1591
+
 namespace FastDeepCloner
 {
     public class AttributesCollections : List<Attribute>
@@ -33,3 +35,5 @@ namespace FastDeepCloner
 
     }
 }
+
+#pragma warning restore 1591

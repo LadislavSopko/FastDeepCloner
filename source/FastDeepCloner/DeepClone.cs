@@ -146,6 +146,7 @@ namespace FastDeepCloner
         /// Create a type that implement INotifyPropertyChanged PropertyChanged.
         /// Note it will only include properties that are virtual.
         /// If type containe PropertyChanged(object sender, PropertyChangedEventArgs e) it will be bound automatically otherwise you will have to add it manually
+        /// </summary>
         /// <returns></returns>
         public static T CreateProxyInstance<T>()
         {

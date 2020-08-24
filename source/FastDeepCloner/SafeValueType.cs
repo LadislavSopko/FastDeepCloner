@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
 
+#pragma warning disable 1591
+
 namespace FastDeepCloner
 {
     /// <summary>
@@ -49,3 +51,5 @@ namespace FastDeepCloner
         }
     }
 }
+
+#pragma warning restore 1591
