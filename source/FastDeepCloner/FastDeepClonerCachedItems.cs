@@ -519,9 +519,9 @@ namespace FastDeepCloner
                     return item;
 
                 }
-                catch (Exception e)
+                catch (Exception)
                 {
-                    throw e;
+                    throw;
                 }
             }
         }
@@ -725,9 +725,9 @@ namespace FastDeepCloner
 #endif
                 }
             }
-            catch (Exception e)
+            catch (Exception)
             {
-                throw e;
+                throw;
             }
         }
 

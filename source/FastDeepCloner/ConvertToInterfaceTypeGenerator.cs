@@ -7,7 +7,7 @@ using System.Reflection.Emit;
 
 namespace FastDeepCloner
 {
-#if NETSTANDARD2_0 || NETCOREAPP2_0 || NET48
+#if NETSTANDARD2_0 || NETCOREAPP2_0 || NET48 || NET5_0
     internal static class ConvertToInterfaceTypeGenerator
     {
 
@@ -38,9 +38,9 @@ namespace FastDeepCloner
 
                 return typeBuilder.CreateTypeInfo().AsType();
             }
-            catch (Exception e)
+            catch (Exception)
             {
-                throw e;
+                throw;
             }
         }
 

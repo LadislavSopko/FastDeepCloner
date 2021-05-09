@@ -6,7 +6,7 @@ using System.Reflection.Emit;
 
 namespace FastDeepCloner
 {
-#if NETSTANDARD2_0 || NETCOREAPP2_0 || NET48
+#if NETSTANDARD2_0 || NETCOREAPP2_0 || NET48 || NET5_0
     internal class INotifyPropertyChangedProxyTypeGenerator
     {
         private static AssemblyBuilder _ab;
